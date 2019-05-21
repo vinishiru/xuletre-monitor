@@ -2,8 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('*', function (req, res) {
-
-    res.send('Xuletre WebApp 1.0');
+    res.send('Xuletre Monitor 1.0');
 });
 
 app.listen(8080, function () {
